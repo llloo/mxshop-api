@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
-	"mxshop-api/user-api/proto"
+	proto "mxshop-api/protos"
 	"mxshop-api/user-api/response"
 	"net/http"
 	"strconv"
